@@ -14,7 +14,7 @@ function checkToday(){
     } else if (curHr < 8) {
         //console.log('codding');
         count = 2;
-    } else if (curHr <= 12) {
+    } else if (curHr < 12) {
         if (curHr >= 11) {
             if (today.getMinutes() >= 30) {
                 //console.log('return codding');
@@ -23,14 +23,11 @@ function checkToday(){
                 //console.log('stop codding');
                 count = 3;
             }
-        } else {
-            //console.log('stop codding');
-            count = 3;
-        }
+        } 
     } else if (curHr < 14) {
         //console.log('return codding');
         count = 4;
-    } else if (curHr <= 18) {
+    } else if (curHr < 18) {
         if (curHr >= 17) {
             if (today.getMinutes() >= 30) {
                 //console.log('check server');
@@ -39,9 +36,7 @@ function checkToday(){
                 //console.log('Go to Home');
                 count = 5;
             }
-        } else {
-            //console.log('Go to Home');
-            count = 5;
+        } 
         }
     } else if (curHr < 20) {
         //console.log('check server');
