@@ -36,7 +36,6 @@ function checkToday(){
                 //console.log('Go to Home');
                 count = 5;
             }
-        } 
         }
     } else if (curHr < 20) {
         //console.log('check server');
