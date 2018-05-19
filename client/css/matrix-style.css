@@ -80,8 +80,8 @@ hr{ border-top-color:#dadada;}
 #search button {
 	border: 0;
 	margin-left:-3px; 
-	margin-top: -11px;
 	padding: 5px 10px 4px;
+	color: ghostwhite
 }
 #search button i {
 	opacity: 0.8; color:#fff;

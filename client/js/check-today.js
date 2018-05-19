@@ -2,12 +2,13 @@ var count_check = document.getElementById("count-check");
 var check_time = document.getElementById("check-today");
 var time = check_time.getElementsByClassName("check");
 
-var today = new Date()
-var curHr = today.getHours()
-
 var count;
 
-function checkToday(){
+function checkToday() {
+    
+    var today = new Date();
+    var curHr = today.getHours();
+
     if (curHr < 5) {
         //console.log('wake up');
         count = 1;
@@ -23,9 +24,12 @@ function checkToday(){
                 //console.log('stop codding');
                 count = 3;
             }
-        } 
+        } else {
+            //console.log('stop codding');
+            count = 3;
+        }
     } else if (curHr < 14) {
-        //console.log('return codding');
+        // console.log('return codding');
         count = 4;
     } else if (curHr < 18) {
         if (curHr >= 17) {
@@ -36,6 +40,9 @@ function checkToday(){
                 //console.log('Go to Home');
                 count = 5;
             }
+        } else {
+            // console.log('Go to Home');
+            count = 5;
         }
     } else if (curHr < 20) {
         //console.log('check server');
@@ -49,17 +56,24 @@ function checkToday(){
     }
 }
 
-var run = function(){
+function myTimer() {
+    var d = new Date();
+    var t = d.toLocaleTimeString();
+    document.getElementById("clock").innerHTML = t;
+}
+
+var run = function () {
     setInterval(
-        function(){
+        function () {
+            myTimer();
             checkToday();
-            for(var i=0; i<=(count-1); i++){
+            for (var i = 0; i <= (count - 1); i++) {
                 time[i].style.backgroundColor = "#61FF7E";
             };
-             time[count - 1].style.backgroundColor = "#FFDA49";
-             count_check.innerHTML = 8 - (count - 1);
-            }, 1000
-        )
-    };
-    
+            time[count - 1].style.backgroundColor = "#FFDA49";
+            count_check.innerHTML = 8 - (count - 1);
+        }, 1000
+    )
+};
+
 run();
