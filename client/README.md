@@ -1,88 +1,75 @@
-# ElaAdmin HTML5 Admin Dashboard Template
-**ElaAdnin** is a responsive Bootstrap 4 Admin Template. It provides you with a collection of ready to use code snippets and utilities, custom pages, loads of charts, dashboard variations, a collection of applications and some useful widgets. Preview of this awesome admin template available here: https://colorlib.com/polygon/elaadmin/index.html
+AdminBSB - Material Design
+=======================
+[![npm version](https://img.shields.io/npm/v/adminbsb-materialdesign.svg)](https://www.npmjs.com/package/adminbsb-materialdesign)
+![Bower version](https://img.shields.io/bower/v/adminbsb-materialdesign.svg)
 
-# Preview
+**AdminBSB - Material Design is a fully responsive and free admin template.** It was developed with [Bootstrap 3.x Framework](http://getbootstrap.com) and [Google Material Design](https://material.google.com) of powers.
 
-### Screenshot
+It's really easy to customize and usage. You can use for from 320px to large resolution pixels of new generation screens and mobile devices. (**Fully Responsive Material Design**)
 
-![ElaAdmin admin dashboard template preview](https://colorlib.com/wp/wp-content/uploads/sites/2/elaadmin-bootstrap-admin-dashboard.jpg)
+Looking for Premium Templates?
+----------------
+**If you need more features please visit portfolio of mine which page link is [https://themeforest.net/user/gurayyarar/portfolio](http://bit.ly/2oPFpmQ)**
 
-### Demo Site: [Here](https://colorlib.com/polygon/elaadmin/index.html)
+Demo
+----------------
+You can check the website preview with **[this link](https://gurayyarar.github.io/AdminBSBMaterialDesign/)**  
 
-### TOC
-- [Built With](#built-with)
-- [Changelog](#changelog)
-- [Authors](#authors)
-- [License](#license)
+![AdminBSB - Free Admin Template With Material Design](https://raw.githubusercontent.com/gurayyarar/AdminBSBMaterialDesign/master/images/screenshot.png)
 
-### Built With
+Installation
+----------------
+You can choose one from multiple ways for installation.
 
-- [amCharts](https://www.amcharts.com/)
-- [barRating](http://github.com/antennaio/jquery-bar-rating)
-- [Bootstrap](http://getbootstrap.com/)
-- [C3](https://github.com/c3js/c3) - A D3-based reusable chart library
-- [Chart.js](http://www.chartjs.org/)
-- [Chartist.js](https://gionkunz.github.io/chartist-js/)
-- [Chosen](https://harvesthq.github.io/chosen/)
-- [DataMaps](http://datamaps.github.io/)
-- [dataTables](https://datatables.net/)
-- [Datepicker for Bootstrap](https://github.com/uxsolutions/bootstrap-datepicker)
-- [Dropzone.js](http://www.dropzonejs.com)
-- [ECharts](https://github.com/ecomfe/echarts/)
-- [Flot Charts](http://www.flotcharts.org/)
-- [Fontawesome](http://fontawesome.io/)
-- [FullCalendar](https://fullcalendar.io/)
-- [gauge.js](http://bernii.github.io/gauge.js/)
-- [gmaps](https://hpneo.github.io/gmaps/)
-- [Granim](https://sarcadass.github.io/granim.js)
-- [Highcharts JS](http://www.highcharts.com/)
-- [Ion.RangeSlider](https://github.com/IonDen/ion.rangeSlider)
-- [jQuery asScrollbar](https://github.com/amazingSurge/jquery-asScrollbar)
-- [jQuery Knob](https://github.com/aterrien/jQuery-Knob)
-- [jQuery Line Progressbar](https://kingrayhan.github.io/LineProgressbar/)
-- [jQuery Validation Plugin](http://jqueryvalidation.org/)
-- [jquery-circle-progress](http://kottenator.github.io/jquery-circle-progress/) - jQuery Plugin to draw animated circular progress bars
-- [jquery.sparkline](http://omnipotent.net/jquery.sparkline/)
-- [jQuery](https://jquery.com/)
-- [JQVMap](https://github.com/manifestinteractive/jqvmap/) - jQuery Vector Map Library
-- [JQVMap](https://jqvmap.com/)
-- [jRate](https://github.com/senthilporunan/jRate) - SVG based star Rating jQuery plugin
-- [jsgrid](https://github.com/tabalinas/jsgrid) - Lightweight Grid jQuery Plugin
-- [JustGage](http://www.justgage.com) - animated gauges using RaphaelJS
-- [Load Google Maps API](https://github.com/yuanqing/load-google-maps-api)
-- [metismenu](https://github.com/onokumus/metisMenu) - A simple jQuery menu plugin
-- [moment.js](https://momentjs.com)
-- [morris.js](http://morrisjs.github.io/morris.js/)
-- [Nestable jQuery Plugin](https://github.com/dbushell/Nestable)
-- [Owl Carousel](https://github.com/OwlCarousel2/OwlCarousel2)
-- [Pace](https://github.com/HubSpot/pace) - website preloader
-- [Peity](http://benpickles.github.io/peity)
-- [Peity](http://benpickles.github.io/peity/)
-- [Popper.js](https://popper.js.org/)
-- [Raphaël](https://github.com/DmitryBaranovskiy/raphael) - Cross-browser vector graphics
-- [Rickshaw](https://github.com/shutterstock/rickshaw)
-- [Sass](http://sass-lang.com/)
-- [Select2](https://github.com/select2/select2)
-- [simpleWeather](http://simpleweatherjs.com )
-- [Sticky-kit](https://github.com/leafo/sticky-kit)
-- [Sweetalert2](https://github.com/sweetalert2/sweetalert2)
-- [toastr](https://github.com/CodeSeven/toastr)
-- [wysihtml5](https://github.com/xing/wysihtml5)
+**GitHub**
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine
+```
+git clone https://github.com/gurayyarar/AdminBSBMaterialDesign.git
+```
+
+**npm**
+```
+npm install adminbsb-materialdesign
+```
+
+**bower**
+```
+bower install adminbsb-materialdesign
+```
+
+Documentation
+----------
+Visit the **[documentation](https://gurayyarar.github.io/AdminBSBMaterialDesign/documentation/)**
+
+Browser Support
+----------
+- IE 10 +
+- Microsoft Edge (Latest)
+- Mozilla Firefox (Latest)
+- Google Chrome (Latest)
+- Opera (Latest)
+- Safari (Latest)
+
+Change Logs
+----------
+You can display all release notes with **[this link](https://gurayyarar.github.io/AdminBSBMaterialDesign/pages/changelogs.html)**
 
 
-### Changelog
-#### V 1.0.0
-Initial Release
-### Authors
-[Colorlib](https://colorlib.com)
+FAQ
+===
+**Can I use this template for personal or commercial websites/web projects?**  
+Sure, you can use both of personal and commercial websites/web projects.
 
-### More info
-- [Bootstrap admin dashboards](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/)
-- [Angular dashboards](https://colorlib.com/wp/angularjs-admin-templates/)
-- [Free Admin Dashboards](https://colorlib.com/wp/free-html5-admin-dashboard-templates/)
-- [Website Templates](https://colorlib.com/wp/templates/)
-- [WordPress Themes](https://colorlib.com/wp/free-wordpress-themes/)
+**Is the attribution link required?**  
+No, not required. (Though very much appreciated)
 
-### License
+License
+----------
+**AdminBSB - Material Design** is an open source project that is licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-ElaAdmin is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the final products. But you always need to state that Colorlib is the original author of this template.
+Donations
+----------
+Donations are **greatly appreciated!**
+
+**[BUY ME A COFFEE](http://bit.ly/2yEjtx5)**
