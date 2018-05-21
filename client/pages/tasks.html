@@ -874,7 +874,7 @@
     <script>
         // List Tasks
         function get_tasks_json() {
-            $.getJSON("/storage/Tasks.json", function (data) {
+            $.getJSON("http://localhost:90/Tasks.json", function (data) {
 
                 $.each(data, function (key, val) {
                 var task = '<div class="row clearfix">' +
