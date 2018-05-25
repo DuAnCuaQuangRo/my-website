@@ -7249,6 +7249,7 @@
     <Content Include="Views\Server\Info.cshtml" />
     <Content Include="Views\Server\Login.cshtml" />
     <Content Include="Views\Server\Users.cshtml" />
+    <Content Include="Views\Server\Timeline.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

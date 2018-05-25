@@ -31,5 +31,11 @@ namespace server.Controllers
         {
             return View();
         }
+
+        // GET: Timeline
+        public ActionResult Timeline()
+        {
+            return View();
+        }
     }
 }
