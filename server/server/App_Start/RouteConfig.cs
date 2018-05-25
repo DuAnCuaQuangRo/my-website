@@ -17,7 +17,11 @@ namespace server
                 name: "Default",
                 url: "{controller}/{action}/{id}",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 defaults: new { controller = "Server", action = "Login", id = UrlParameter.Optional }
+=======
+                defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional }
+>>>>>>> parent of 703d339... change server
 =======
                 defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional }
 >>>>>>> parent of 703d339... change server

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Server\Server\bin\ApplicationInsights.config
 D:\Server\Server\bin\Server.dll.config
 D:\Server\Server\bin\Server.dll
@@ -186,6 +187,8 @@ D:\my-website\my-website\Server\Server\obj\Debug\Server.csproj.CopyComplete
 D:\my-website\my-website\Server\Server\obj\Debug\Server.dll
 D:\my-website\my-website\Server\Server\obj\Debug\Server.pdb
 =======
+=======
+>>>>>>> parent of 703d339... change server
 D:\my-website\my-website\server\server\bin\ApplicationInsights.config
 D:\my-website\my-website\server\server\bin\server.dll.config
 D:\my-website\my-website\server\server\bin\server.dll
@@ -279,4 +282,7 @@ D:\my-website\my-website\server\server\obj\Debug\server.csproj.CoreCompileInputs
 D:\my-website\my-website\server\server\obj\Debug\server.csproj.CopyComplete
 D:\my-website\my-website\server\server\obj\Debug\server.dll
 D:\my-website\my-website\server\server\obj\Debug\server.pdb
+<<<<<<< HEAD
+>>>>>>> parent of 703d339... change server
+=======
 >>>>>>> parent of 703d339... change server
