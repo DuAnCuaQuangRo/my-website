@@ -37,5 +37,11 @@ namespace server.Controllers
         {
             return View();
         }
+
+        // GET: Profile
+        public ActionResult Profile()
+        {
+            return View();
+        }
     }
 }
