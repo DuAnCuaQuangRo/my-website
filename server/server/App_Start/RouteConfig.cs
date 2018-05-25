@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Server
+namespace server
 {
     public class RouteConfig
     {
@@ -16,8 +16,14 @@ namespace Server
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
+<<<<<<< HEAD
                 defaults: new { controller = "Server", action = "Login", id = UrlParameter.Optional }
+=======
+                defaults: new { controller = "Login", action = "Index", id = UrlParameter.Optional }
+>>>>>>> parent of 703d339... change server
             );
+
+            
         }
     }
 }
